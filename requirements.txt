@@ -1,0 +1,6 @@
+customtkinter
+pillow
+requests
+colorama
+pystyle
+discord
