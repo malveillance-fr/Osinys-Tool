@@ -1,0 +1,25 @@
+[HELP] - How to Debug:
+
+1. Make sure your terminal window is in full-screen mode for better visibility and easier debugging.
+   - Press "Alt + Enter" on your keyboard to toggle full-screen mode on most terminals.
+   - If the terminal window is too small, the program may not display correctly.
+
+2. Debugging Tips:
+   - If you encounter issues, check if any programs are missing or if the choice is invalid.
+   - Ensure all necessary files are placed in the correct directory, specifically in the 'PROGRAMS' folder.
+   - If a program crashes or generates an error, check the error traceback in the terminal to find clues about the issue.
+   - Use `print` statements to check the values of variables and understand where things might be going wrong.
+
+3. Repairing Files:
+   - If some files appear to be damaged or corrupted, you can use the Debugger.py file.
+   - The Debugger.py file is designed to analyze and attempt to repair faulty files or errors in programs. You can run it directly from the menu by selecting `[D] Debug` to start repairing problematic files.
+
+4. Common Issues:
+   - Missing programs: Make sure the program path exists and is correctly listed in the dictionary.
+   - Invalid choice: The program will show an error message if an invalid choice is selected. Check the menu for valid choices.
+
+5. General Recommendations:
+   - Keep the terminal open and monitor its output for any anomalies.
+   - If you're unsure about a specific program, you can always check its path and ensure it exists in the 'PROGRAMS' folder.
+
+To exit the help menu, simply type 'exit' or press Ctrl+C.
