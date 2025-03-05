@@ -1,0 +1,25 @@
+[HELP] - Wie man debuggt:
+
+1. Stellen Sie sicher, dass Ihr Terminalfenster im Vollbildmodus ist, um eine bessere Sichtbarkeit und einfacheres Debugging zu ermöglichen.
+   - Drücken Sie "Alt + Enter" auf Ihrer Tastatur, um den Vollbildmodus in den meisten Terminals zu aktivieren.
+   - Wenn das Terminalfenster zu klein ist, wird das Programm möglicherweise nicht korrekt angezeigt.
+
+2. Tipps zum Debuggen:
+   - Wenn Sie auf Probleme stoßen, überprüfen Sie, ob Programme fehlen oder ob die Auswahl ungültig ist.
+   - Stellen Sie sicher, dass alle erforderlichen Dateien im richtigen Verzeichnis platziert sind, speziell im 'PROGRAMS'-Ordner.
+   - Wenn ein Programm abstürzt oder einen Fehler erzeugt, überprüfen Sie die Fehlermeldung (Traceback) im Terminal, um Hinweise auf das Problem zu erhalten.
+   - Verwenden Sie `print`-Anweisungen, um die Werte von Variablen zu überprüfen und herauszufinden, wo etwas schief läuft.
+
+3. Reparieren von Dateien:
+   - Wenn einige Dateien beschädigt oder fehlerhaft erscheinen, können Sie die Datei Debugger.py verwenden.
+   - Die Datei Debugger.py ist darauf ausgelegt, fehlerhafte Dateien oder Fehler in Programmen zu analysieren und zu reparieren. Sie können sie direkt aus dem Menü starten, indem Sie `[D] Debug` auswählen, um problematische Dateien zu reparieren.
+
+4. Häufige Probleme:
+   - Fehlende Programme: Stellen Sie sicher, dass der Programm-Pfad existiert und korrekt im Wörterbuch aufgelistet ist.
+   - Ungültige Auswahl: Das Programm zeigt eine Fehlermeldung an, wenn eine ungültige Auswahl getroffen wird. Überprüfen Sie das Menü auf gültige Optionen.
+
+5. Allgemeine Empfehlungen:
+   - Lassen Sie das Terminal offen und überwachen Sie seine Ausgabe auf Anomalien.
+   - Wenn Sie sich über ein bestimmtes Programm unsicher sind, können Sie immer den Pfad überprüfen und sicherstellen, dass es im 'PROGRAMS'-Ordner vorhanden ist.
+
+Um das Hilfemenü zu verlassen, geben Sie einfach 'exit' ein oder drücken Sie Strg+C.

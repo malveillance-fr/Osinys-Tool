@@ -1,0 +1,25 @@
+[HELP] - Comment Déboguer :
+
+1. Assurez-vous que la fenêtre du terminal est en mode plein écran pour une meilleure visibilité et pour faciliter le débogage.
+   - Appuyez sur "Alt + Entrée" sur votre clavier pour basculer en plein écran sur la plupart des terminaux.
+   - Si la fenêtre du terminal est trop petite, le programme pourrait ne pas s'afficher correctement.
+
+2. Conseils de Débogage :
+   - Si vous rencontrez des problèmes, vérifiez si des programmes manquent ou si le choix est invalide.
+   - Assurez-vous que tous les fichiers nécessaires sont placés dans le bon répertoire, plus précisément dans le dossier 'PROGRAMS'.
+   - Si un programme plante ou génère une erreur, vérifiez la trace d'erreur (traceback) dans le terminal pour trouver des indices sur le problème.
+   - Utilisez des déclarations `print` pour vérifier la valeur des variables et comprendre où les choses pourraient mal tourner.
+
+3. Réparation des Fichiers :
+   - Si certains fichiers semblent endommagés ou corrompus, vous pouvez utiliser le fichier Debugger.py.
+   - Le fichier Debugger.py est conçu pour analyser et tenter de réparer les fichiers défectueux ou les erreurs dans les programmes. Vous pouvez le lancer directement depuis le menu en sélectionnant `[D] Debug` pour commencer à réparer les fichiers problématiques.
+
+4. Problèmes Courants :
+   - Programmes manquants : Assurez-vous que le chemin du programme existe et est correctement listé dans le dictionnaire.
+   - Choix invalide : Le programme affichera un message d'erreur si un choix invalide est sélectionné. Vérifiez le menu pour les choix valides.
+
+5. Recommandations Générales :
+   - Gardez le terminal ouvert et surveillez sa sortie pour toute anomalie.
+   - Si vous n'êtes pas sûr à propos d'un programme spécifique, vous pouvez toujours vérifier son chemin et vous assurer qu'il existe dans le dossier 'PROGRAMS'.
+
+Pour quitter le menu d'aide, tapez simplement 'exit' ou appuyez sur Ctrl+C.
