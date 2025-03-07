@@ -65,4 +65,3 @@ def display_ascii_and_info():
 
 display_ascii_and_info()
 
-input("Enter For Return To Menu")
