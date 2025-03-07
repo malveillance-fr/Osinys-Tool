@@ -72,4 +72,4 @@ if open_result == 'y':
 
     print(Fore.GREEN + "\nSearch complete! Check the opened tabs for results.")
 else:
-    input(Fore.RED + "\nPress enter to quit...")
+
