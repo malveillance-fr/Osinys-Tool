@@ -189,4 +189,4 @@ def username_tracker():
 if __name__ == '__main__':
     username_tracker()
 
-input(Fore.YELLOW + "\nPress Enter to quit")
+
