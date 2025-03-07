@@ -103,7 +103,7 @@ search_permission = input(Fore.YELLOW + "\n [INPUT] Do you want to search for ma
 if search_permission == 'y':
     found = False
     start_time = time.time()
-    max_duration = 20 * 60  # 20 minutes
+    max_duration = 20 * 60  
 
     with ThreadPoolExecutor(max_workers=10) as executor:
         futures = []
