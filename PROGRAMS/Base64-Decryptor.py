@@ -66,4 +66,4 @@ try:
     print(f"\nDecoded text: {decoded_text}")
 except Exception as e:
     print(f"Error during decoding: {e}")
-input("\nEnter for return to menu")
+
