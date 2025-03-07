@@ -33,6 +33,7 @@ def run_program(choice):
     if os.path.exists(program_path):
         os.system('cls')
         os.system(f"python {program_path}")  
+        input(Colorate.Horizontal(Colors.green_to_blue, "Press Enter to return to the menu..."))
     else:
         print(Colorate.Horizontal(Colors.red_to_purple, "[!] Invalid option or missing program."))
 
@@ -78,7 +79,6 @@ def main():
         
        
         os.system('cls')
-        print(Colorate.Horizontal(Colors.yellow_to_red, ascii_art))
         print(Colorate.Horizontal(Colors.yellow_to_red, menu))
         
 
